@@ -682,3 +682,17 @@ function handleHeaderShrink() {
 window.addEventListener('scroll', handleHeaderShrink);
 handleHeaderShrink();
 
+const mobileCallBar = document.querySelector('.mobile-call-bar');
+
+function handleCallBar() {
+  if (!mobileCallBar) return;
+
+  if (window.scrollY > 300) {
+    mobileCallBar.classList.add('show');
+  } else {
+    mobileCallBar.classList.remove('show');
+  }
+}
+
+window.addEventListener('scroll', handleCallBar);
+handleCallBar();

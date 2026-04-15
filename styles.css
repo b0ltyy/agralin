@@ -533,6 +533,21 @@ p {
   border-radius: 999px;
   font-weight: 700;
   box-shadow: 0 10px 25px rgba(20, 35, 25, 0.22);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.mobile-call-bar.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .mobile-call-bar {
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {

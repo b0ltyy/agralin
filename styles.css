@@ -520,34 +520,7 @@ p {
 }
 
 .mobile-call-bar {
-  display: none;
-  position: fixed;
-  left: 1rem;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 1100;
-  background: var(--green-dark);
-  color: var(--white);
-  text-align: center;
-  padding: 1rem 1.2rem;
-  border-radius: 999px;
-  font-weight: 700;
-  box-shadow: 0 10px 25px rgba(20, 35, 25, 0.22);
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.3s ease;
-}
-
-.mobile-call-bar.show {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-@media (max-width: 768px) {
-  .mobile-call-bar {
-    display: block;
-  }
+  display: none !important;
 }
 
 @media (max-width: 768px) {

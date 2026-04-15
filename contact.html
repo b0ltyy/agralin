@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Agralin</title>
+  <meta
+    name="description"
+    content="Neem contact op met Agralin in Ingelmunster. Bel rechtstreeks voor snelle en persoonlijke opvolging."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Agralin home" data-i18n-aria-label="logo_aria_label">
+        <img
+          src="images/logo-agralin.png"
+          alt="Agralin logo"
+          class="logo-img"
+          data-i18n-alt="logo_alt"
+        />
+      </a>
+
+      <nav class="main-nav" aria-label="Hoofdnavigatie" data-i18n-aria-label="main_nav_aria">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="about.html" data-i18n="nav_about">Over ons</a>
+        <a href="products.html" data-i18n="nav_products">Producten</a>
+        <a href="contact.html" class="active" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="language-switcher" aria-label="Taalkeuze" data-i18n-aria-label="language_switcher_aria">
+          <button type="button" class="lang-btn active" data-lang="nl">NL</button>
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <a class="btn btn-primary desktop-call" href="tel:+32496901243" data-i18n="nav_call">
+          Bel ons
+        </a>
+      </div>
+
+      <button
+        class="menu-toggle"
+        aria-label="Menu openen"
+        aria-expanded="false"
+        data-i18n-aria-label="menu_open_aria"
+      >
+        ☰
+      </button>
+    </div>
+
+    <div class="mobile-menu">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">Over ons</a>
+      <a href="products.html" data-i18n="nav_products">Producten</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      <a class="btn btn-primary" href="tel:+32496901243" data-i18n="call_now">
+        Bel ons vandaag nog
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-label" data-i18n="contact_page_label">Contact</p>
+        <h1 data-i18n="contact_page_title_text">Neem rechtstreeks contact op met Agralin</h1>
+        <p data-i18n="contact_page_intro">
+          Voor een snelle en persoonlijke opvolging belt u ons best rechtstreeks. Zo kunnen wij uw vraag onmiddellijk en efficiënt behandelen.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-card">
+          <p class="section-label" data-i18n="contact_card_label">Bel ons</p>
+          <h2 data-i18n="contact_card_title">Telefonisch contact heeft onze voorkeur</h2>
+          <p data-i18n="contact_card_intro">
+            Wenst u informatie over onze vlasverwerking, producten of samenwerking? Aarzel niet om ons rechtstreeks te bellen.
+          </p>
+
+          <div class="contact-list">
+            <div>
+              <span data-i18n="contact_phone_label">Telefoon</span>
+              <a href="tel:+32496901243">+32 496 90 12 43</a>
+            </div>
+
+            <div>
+              <span data-i18n="contact_email_label">E-mail</span>
+              <a href="mailto:vlas@mommerency.eu">vlas@mommerency.eu</a>
+            </div>
+
+            <div>
+              <span data-i18n="contact_address_label">Adres</span>
+              <p data-i18n="contact_address_text">Krekelstraat 48, 8770 Ingelmunster, België</p>
+            </div>
+          </div>
+
+          <a href="tel:+32496901243" class="btn btn-primary full-width" data-i18n="call_now">
+            Bel ons vandaag nog
+          </a>
+        </div>
+
+        <div class="map-card">
+          <iframe
+            title="Kaart van Agralin in Ingelmunster"
+            data-i18n-title="contact_map_title"
+            src="https://www.google.com/maps?q=Krekelstraat%2048%2C%208770%20Ingelmunster%2C%20Belgium&output=embed"
+            width="100%"
+            height="100%"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Agralin</h3>
+        <p data-i18n="footer_tagline">Verwerking van vlas met kwaliteit en vertrouwen.</p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_contact_title">Contact</h4>
+        <p><a href="tel:+32496901243">+32 496 90 12 43</a></p>
+        <p><a href="mailto:vlas@mommerency.eu">vlas@mommerency.eu</a></p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_address_title">Adres</h4>
+        <p data-i18n="footer_address">
+          Krekelstraat 48<br />
+          8770 Ingelmunster<br />
+          België
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="mobile-call-bar" href="tel:+32496901243" data-i18n="call_now">
+    Bel ons vandaag nog
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
